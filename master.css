@@ -146,5 +146,17 @@ header {
   line-height: 37px; }
 
 @media (max-width: 320px) {
+  .thanks {
+    width: auto;
+    margin-top: 20px;
+    margin-bottom: 40px; }
+    .thanks img {
+      padding: 0; }
+    .thanks span, .thanks img {
+      display: block;
+      width: auto;
+      text-align: center;
+      margin: 0 auto; } }
+@media (max-width: 320px) {
   header + .signup + .sponsor {
     display: none !important; } }
